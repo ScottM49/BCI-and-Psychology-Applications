@@ -44,7 +44,7 @@ while running:
         checkOff = True
         checkOn = False
 
-    # If flash off duration has exceeded on time turn flash on
+    # If flash off duration has exceeded off time turn flash on
     if t.time() - offTime >= speed2 and checkOff == True:
         flash = True
         rNum = r.randint(1, 6)
